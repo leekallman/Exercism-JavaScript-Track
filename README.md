@@ -1,3 +1,3 @@
-# hello-world
+# Exercism Javascript Track
 
-The first exercise in Exercism Javascript Track
+My progress solving Exercism Javascript Track
