@@ -3,16 +3,12 @@
 // convenience to get you started writing code faster.
 //
 
-export const colorCode = (color) => {
+// 1. create a list of the band colors
+// 2. function that fetch the value of the given color
 
-    return COLORS.indexOf(color);
-};
+
 export const COLORS = ["black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"];
 
-// export const COLORS = ["black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"];
-// export const colorCode = (c) => {
-//     const index = COLORS.findIndex(color => color === c)
-//     return index
-// };
-
-// colorCode("Orange")
+export const colorCode = (color) => {
+    return COLORS.indexOf(color);
+}

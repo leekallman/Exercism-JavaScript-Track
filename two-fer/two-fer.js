@@ -4,7 +4,7 @@
 
 
 // export const twoFer = (name = 'Alice') => {
-//   if (name){
+//   if (name) {
 //     return `One for ${name}, one for me.`;
 //   } else {
 //     return "One for you, one for me"
@@ -18,5 +18,6 @@ export const twoFer = (name) => {
     return `One for you, one for me.`
   }
 }
+
 
 twoFer("Thulani")

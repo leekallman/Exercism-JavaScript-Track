@@ -2,7 +2,7 @@ import { twoFer } from './two-fer';
 
 describe('twoFer()', () => {
   test('no name given', () => {
-    expect(twoFer('you')).toEqual('One for you, one for me.');
+    expect(twoFer()).toEqual('One for you, one for me.');
   });
 
   test('a name given', () => {
