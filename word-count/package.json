@@ -1,5 +1,5 @@
 {
-  "name": "@exercism/javascript-gigasecond",
+  "name": "@exercism/javascript-word-count",
   "description": "Exercism exercises in Javascript.",
   "author": "Katrina Owen",
   "private": true,
@@ -7,18 +7,18 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/exercism/javascript",
-    "directory": "exercises/practice/gigasecond"
+    "directory": "exercises/practice/word-count"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.15.0",
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
     "@babel/plugin-syntax-bigint": "^7.8.3",
-    "@babel/preset-env": "^7.15.0",
-    "@exercism/eslint-config-javascript": "^0.4.0",
+    "@babel/preset-env": "^7.15.8",
+    "@exercism/eslint-config-javascript": "^0.5.0",
     "@types/jest": "^26.0.24",
-    "@types/node": "^16.4.13",
-    "babel-jest": "^27.0.6",
-    "core-js": "^3.16.0",
+    "@types/node": "^16.11.4",
+    "babel-jest": "^27.3.1",
+    "core-js": "^3.18.2",
     "eslint": "^7.32.0",
     "jest": "^26.6.3"
   },
